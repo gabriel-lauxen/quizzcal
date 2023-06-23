@@ -55,6 +55,53 @@ h1 {
   color: #293264;
 }
 
+
+
+.question-title {
+  margin-block: 10px;
+  font-family: 'Karla';
+  font-style: normal;
+  font-weight: 700;
+  font-size: larger;
+  line-height: 24px;
+  text-align: start;
+  color: #293264;
+}
+
+.questions-container {
+  margin: 80px;
+}
+
+.question {
+  border-bottom: 1px solid #DBDEF0;
+}
+
+.question-answer {
+  font-family: 'Inter';
+  font-weight: 500;
+  font-size: small;
+  min-width: 80px;
+  padding-inline: 14px;
+  padding-block: 5px;
+
+  text-align: center;
+  color: #293264;
+  border-radius: 0.8rem;
+  border: 0.771px solid #4D5B9E;
+}
+
+.question-answer:hover {
+  box-shadow: 0 0 2px 0 #4D5B9E;
+}
+
+.answers-container {
+  display: flex;
+  flex-wrap: ;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  gap: 10px;
+}
+
 p {
   margin: 25px;
   font-family: 'Inter';
